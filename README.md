@@ -1,4 +1,5 @@
 # Meu Portfólio Pessoal - Bruna Marques
+* **Portfólio Online:** (https://brunamarques18-4.github.io/portfolio)
 
 ## 🚀 Sobre o Projeto
 
