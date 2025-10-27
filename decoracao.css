@@ -297,3 +297,43 @@ main {
     transform: translateY(-3px);
 
 }
+
+/* ========================================= */
+/* 6. RESPONSIVIDADE (PARA CELULARES)        */
+/* ========================================= */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column; /* Coloca o título EM CIMA do menu */
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .navegacao-principal ul {
+        gap: 20px; /* Diminui o espaço entre os links do menu */
+    }
+
+    .apresentacao {
+        flex-direction: column; /* Coloca o texto EM CIMA da imagem */
+        text-align: center;     /* Centraliza o texto */
+    }
+
+    .tituloprincipal {
+        font-size: 2rem; /* Diminui o tamanho dos títulos de seção */
+    }
+
+    .apresentacaotexto h2 {
+        font-size: 2.8rem; /* Diminui o "Dev Back-End!" */
+    }
+
+    .apresentacaotexto p {
+        font-size: 1.1rem; /* Ajusta o parágrafo */
+    }
+
+
+    .projeto-card {
+        width: 90%; /* Faz o card ocupar quase toda a largura da tela */
+    }
+
+}
